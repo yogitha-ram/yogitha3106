@@ -1,0 +1,9 @@
+data = [80, 50, 40, 40]
+mean = sum(data) / len(data)
+var = sum((x - mean)**2 for x in data) / len(data)
+print(mean)
+print(var)
+
+
+57.5
+218.75
